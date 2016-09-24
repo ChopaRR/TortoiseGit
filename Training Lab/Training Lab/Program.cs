@@ -13,11 +13,9 @@ namespace Training_Lab
             
             double w = double.Parse(Console.ReadLine());
             double h = double.Parse(Console.ReadLine());
-            var koridor = (h*100) - 100;
-            var bord = Math.Truncate( koridor / 70);           
+                     
             var bord1 = Math.Truncate((w*100) / 120);
-            var sumplaces = bord1 * bord - 3;
-            Console.WriteLine("{0:00}",sumplaces);
+            var sumplaces =iteLine("{0:00}",sumplaces);
 
         }
     }
