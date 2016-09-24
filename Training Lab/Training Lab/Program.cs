@@ -11,12 +11,10 @@ namespace Training_Lab
         static void Main(string[] args)
         {
             
-            double w = double.Parse(Console.ReadLine());
-            double h = double.Parse(Console.ReadLine());
+            double w = double.Parse(ConsLine());
             var koridor = (h*100) - 100;
             var bord = Math.Truncate( koridor / 70);           
-            var bord1 = Math.Truncate((w*100) / 120);
-            var sumplaces = bord1 * bord - 3;
+            var bord1 = Math.Truncate((w
             Console.WriteLine("{0:00}",sumplaces);
 
         }
